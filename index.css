@@ -1,0 +1,287 @@
+.letter {
+    height: 100px;
+    width: auto;
+    margin-left: 15%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .a {
+    font-size: 100px;
+    font-weight: bold;
+    position: absolute;
+    
+  }
+  
+  .text {
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    bottom: 25px;
+  }
+
+.head-box{
+    height: 200px;
+    width: 100%;
+    border-bottom: 3px solid rgb(190, 174, 174);
+    background-color: rgb(69, 67, 67);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.white-color{
+    color: white;
+}
+
+
+.header-div1{
+    display: flex;
+    width: 50px;
+    justify-content: space-between;
+}
+
+.subscribe{
+    height: 30px;
+    width: auto;
+    border: none;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.sub-text{
+    font-size: large;
+    font-weight: bolder;
+}
+
+.main-div{
+    height: auto;
+    width: 100%;
+    background-color: rgb(69, 67, 67);
+}
+
+
+
+  
+.main-div nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+} 
+
+.div{
+    height: 100px;
+}
+
+.container{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+@media (max-width : 1024px){
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+
+    .container>div{
+        margin-top: 30px;
+    }
+
+    .main-div nav{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+@media (max-width : 768px){
+    .item1{
+        width: 70%;
+    }
+    
+}
+
+.item1 img{
+    width: 100%;
+}
+
+.item1-div1{
+    background-color: rgb(108, 186, 207);
+    margin-top: 5px;
+    width: 80%;
+    height: 30px;
+}
+
+.item1-div2{
+    background-color: rgb(108, 186, 207);
+    margin-top: 5px;
+    width: 40%;
+    height: 30px;
+}
+
+.item1-div3{
+    background-color: rgb(138, 153, 158);
+    margin-top: 5px;
+    width: 90%;
+    height: 8px;
+}
+
+.item1-div4{
+    background-color: rgb(138, 153, 158);
+    margin-top: 5px;
+    width: 90%;
+    height: 8px;
+}
+
+.item1-div5{
+    background-color: rgb(138, 153, 158);
+    margin-top: 5px;
+    width: 25%;
+    height: 8px;
+}
+
+.item2{
+    height: auto;
+    width: 350px;
+}
+
+@media (max-width:768px){
+    .item2{
+        height: auto;
+        width: 70%;
+    }
+}
+
+.item2-div1{
+    height: 210px;
+    width: 100%;
+    background-color: gray;
+}
+
+.item2-div2{
+    background-color: rgb(108, 186, 207);
+    margin-top: 5px;
+    width: 90%;
+    height: 20px;
+}
+
+.item2-div3{
+    background-color: rgb(108, 186, 207);
+    margin-top: 5px;
+    width: 30%;
+    height: 20px;
+}
+
+.item2-div4{
+    background-color: rgb(138, 153, 158);
+    margin-top: 3px;
+    width: 90%;
+    height: 3px;
+}
+
+.item2-div5{
+    background-color: rgb(138, 153, 158);
+    margin-top: 3px;
+    width: 90%;
+    height: 3px;
+}
+
+.item2-div6{
+    background-color: rgb(138, 153, 158);
+    margin-top: 3px;
+    width: 40%;
+    height: 3px;
+    margin-bottom: 5px;
+}
+
+.item2-div7{
+    background-color: rgb(138, 153, 158);
+    margin-top: 3px;
+    width: 100%;
+    height: 1px;
+    margin-bottom: 5px;
+}
+
+.item3{
+    width: 370px;
+}
+
+@media (max-width : 768px){
+    .item3{
+        width: 70%;
+    }
+}
+
+.item3-div1{
+    height: 180px;
+    width: 100%;
+    background-color: rgb(17, 90, 90);
+    margin-bottom: 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.item3-div2-div1{
+    margin-left: 70px;
+}
+
+@media (max-width : 500px){
+    .item3-div2-div1{
+        margin-left: 0px;
+    }
+}
+
+.box1{
+    height: 12px;
+    width: 100px;
+    background-color: cyan;
+    margin-bottom: 7px;
+}
+
+.box2{
+    height: 10px;
+    width: 150px;
+    background-color: grey;
+    margin-bottom: 3px;
+}
+
+.box3{
+    height: 10px;
+    width: 150px;
+    margin-bottom: 3px;
+    background-color: grey;
+}
+
+.box4{
+    height: 10px;
+    width: 100px;
+    margin-bottom: 3px;
+    background-color: grey;
+}
+
+.item3-div2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item3-div2-div2{
+    height: 80px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: rgb(160, 157, 157);
+}
