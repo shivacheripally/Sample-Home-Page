@@ -286,3 +286,54 @@
     border-radius: 10px;
     background-color: rgb(160, 157, 157);
 }
+
+@media (max-width : 500px){
+    .item3-div2-div2{
+        height: 60px;
+        width: 100px;
+        border-radius: 10px;
+        background-color: rgb(160, 157, 157);
+    }
+
+    .box1{
+        height: 12px;
+        width: 70px;
+    }
+    
+    .box2{
+        height: 10px;
+        width: 120px;
+    }
+    
+    .box3{
+        height: 10px;
+        width: 120px;
+    }
+    
+    .box4{
+        height: 10px;
+        width: 70px;
+    }
+}
+
+@media (max-width : 320px){
+    .box1{
+        height: 12px;
+        width: 50px;
+    }
+    
+    .box2{
+        height: 10px;
+        width: 100px;
+    }
+    
+    .box3{
+        height: 10px;
+        width: 100px;
+    }
+    
+    .box4{
+        height: 10px;
+        width: 50px;
+    }
+}
