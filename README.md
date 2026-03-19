@@ -4,8 +4,6 @@ This repository contains the source for the Sample Home Page frontend project.
 
 ## Live Demo
 
-Replace this placeholder with your deployed application URL:
-
 [Project Link](https://shivacheripally.github.io/Sample-Home-Page)
 
 ## Tech Stack
