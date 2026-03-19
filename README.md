@@ -6,7 +6,7 @@ This repository contains the source for the Sample Home Page frontend project.
 
 Replace this placeholder with your deployed application URL:
 
-`https://your-hosted-url-here.com`
+`https://shivacheripally.github.io/Sample-Home-Page/`
 
 ## Tech Stack
 
